@@ -1,0 +1,14 @@
+version: "1"
+services:
+  frontend:
+    # Need to add React frontend
+  backend:
+    image: backend-api
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: "backend-api"
+    volumes:
+        - ./backend:/app
+    ports:
+      - "5000:5000"
