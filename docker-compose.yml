@@ -1,7 +1,16 @@
 version: "1"
 services:
   frontend:
-    # Need to add React frontend
+    image: frontend-react
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: "frontend-react"
+    volumes:
+        - ./frontend:/app
+    ports:
+      - "3000:3000"
+      - "5000:5000"
   backend:
     image: backend-api
     build:

@@ -29,3 +29,6 @@ tps3_qcontrol/__pycache__
 # Logs
 logs
 *.log
+
+# Testing
+test/
