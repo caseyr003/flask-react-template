@@ -1,5 +1,4 @@
 # React Frontend Template
-## Still in development
 
 This project is a web app built with React to be used as a starter template.
 

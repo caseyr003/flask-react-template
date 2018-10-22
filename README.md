@@ -1,5 +1,4 @@
 # Flask-React Docker Template
-## Still in development
 
 This project is a web app built with Python backend and ReactJS frontend to be used as a starter template.
 
