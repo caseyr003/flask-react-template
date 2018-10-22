@@ -37,7 +37,7 @@ For more information see the README.md file in the backend directory
 
 ## Frontend
 
-React for the frontend (default port `4200`)
+React for the frontend (default port `3000`)
 For more information see the README.md file in the frontend directory
 
 ## License
